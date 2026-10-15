@@ -1,0 +1,125 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABC College Information</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f0f4f8;
+            color: #333;
+        }
+
+        header {
+            background-color: #123c69;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        nav {
+            background-color: #0b2545;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+        }
+
+        section {
+            background: white;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        h2 {
+            color: #123c69;
+        }
+
+        button {
+            background: #123c69;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+        footer {
+            background: #0b2545;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>ABC College of Engineering</h1>
+        <p>Learn Today, Lead Tomorrow</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#courses">Courses</a>
+        <a href="#facilities">Facilities</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Our College</h2>
+        <p>Our college provides quality education, practical learning,
+        and career development opportunities for students.</p>
+    </section>
+
+    <section id="courses">
+        <h2>Courses Offered</h2>
+        <ul>
+            <li>Computer Science Engineering</li>
+            <li>Information Technology</li>
+            <li>Electronics and Communication Engineering</li>
+            <li>Mechanical Engineering</li>
+        </ul>
+    </section>
+
+    <section id="facilities">
+        <h2>College Facilities</h2>
+        <ul>
+            <li>Library</li>
+            <li>Computer Laboratories</li>
+            <li>Sports Ground</li>
+            <li>Smart Classrooms</li>
+            <li>Placement Training</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Information</h2>
+        <p>Email: info@abccollege.example</p>
+        <p>Phone: +91-9876543210</p>
+        <button onclick="showMessage()">Contact Us</button>
+        <p id="message"></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 ABC College of Engineering</p>
+    </footer>
+
+    <script>
+        function showMessage() {
+            document.getElementById("message").textContent =
+                "Thank you! Please contact our college by email.";
+        }
+    </script>
+
+</body>
+</html>
